@@ -1,4 +1,4 @@
-# **Lab Report 1 | Remote Access and FileSystem**
+# **LR1 | Remote Access and FileSystem**
 
 By Ren Sano
 
