@@ -7,12 +7,12 @@ By Ren Sano
 *cd*
 
   ![Image](cdnoarg.png)
- > As we are currently in the lecture1 directory, calling 'cd' without any argument automatically tells the terminal to change directories back home, indicating in the terminal's brackets.
+ > As we are currently in the lecture1 directory, calling 'cd' without any arguments automatically tells the terminal to change directories back home, indicating in the terminal's brackets.
 ---
 *ls*
 
  ![Image](noarg.png)
-> This code in the terminal requires no arguments, as it calls 'ls' to show what directories are accessible on the current position you're in at the respository, which is /home.
+> By calling 'ls' without any arguments, it indicates to show what files are accessible on the current directory you're in, which this example we are in the /home directory.
 ---
 *cat*
 
