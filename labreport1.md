@@ -2,7 +2,7 @@
 
 By Ren Sano
 
-**Command With NO Arguments**
+# **Command With NO Arguments**
 
 *cd*
  
@@ -16,9 +16,10 @@ By Ren Sano
 
 
 
-**Command With Path to a File**
+# **Command With Path to a Directory**
 
 *cd*
+
   ![image](direct.png)
 > Calling 'cd lecture1/' calls the directory to change to lecture1, this is the argument input for the command cd.
 
@@ -27,4 +28,13 @@ By Ren Sano
 
 *cat*
 
+# **Command With Path to a File**
+
+*cd*
+
+
+*ls*
+
+
+*cat*
 
