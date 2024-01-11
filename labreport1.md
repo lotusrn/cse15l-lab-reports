@@ -14,26 +14,26 @@ By Ren Sano
 ---
 *cat*
 
----
+
 # **Command With Path to a Directory**
 
 *cd*
 
   ![image](direct.png)
 > Calling 'cd lecture1/' calls the directory to change to lecture1, this is the argument input for the command cd.
-
+---
 *ls*
 
-
+---
 *cat*
 
 # **Command With Path to a File**
 
 *cd*
 
-
+---
 *ls*
 
-
+---
 *cat*
 
