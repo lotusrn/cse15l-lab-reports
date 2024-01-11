@@ -17,7 +17,7 @@ By Ren Sano
 *cat*
 
 ![Image](catnoarg.png)
-> By calling 'cat' in the terminal, it runs into an error at this command requires at least one or two inputs in the command line to concatenate. Though you could call existing files within the 'messages' directory to concatenate in this example, simply putting cat in the terminal does nothing. 
+> By calling 'cat' in the terminal, it runs into an error as this command requires at least one or two inputs in the command line to concatenate. Though you could call existing files within the 'messages' directory to concatenate in this example, simply putting cat in the terminal does nothing. 
 
 # **Command With Path to a Directory**
 
