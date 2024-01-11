@@ -8,6 +8,7 @@ By Ren Sano
  
 
 *ls*
+
  ![Image](noarg.png)
 > This code in the terminal requires no arguments, as it calls 'ls' to show what directories are accessible on the current position you're in at the respository, which is /home.
 
