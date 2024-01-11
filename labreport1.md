@@ -22,7 +22,7 @@ By Ren Sano
 *cd*
 
   ![image](direct.png)
-> Calling 'cd lecture1/' calls the directory to change to lecture1, this is the argument input for the command cd.
+> Calling 'cd lecture1/' calls the directory to change from home to lecture1, 'lecture1' being the argument input for the command cd.
 ---
 *ls*
 
