@@ -6,16 +6,15 @@ By Ren Sano
 
 *cd*
  
-
+---
 *ls*
 
  ![Image](noarg.png)
 > This code in the terminal requires no arguments, as it calls 'ls' to show what directories are accessible on the current position you're in at the respository, which is /home.
-
+---
 *cat*
 
-
-
+---
 # **Command With Path to a Directory**
 
 *cd*
