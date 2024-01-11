@@ -4,10 +4,26 @@ By Ren Sano
 
 **Command With NO Arguments**
 
-  ![Image](noarg.png)
+*cd*
+ 
+
+*ls*
+ ![Image](noarg.png)
 > This code in the terminal requires no arguments, as it calls 'ls' to show what directories are accessible on the current position you're in at the respository, which is /home.
+
+*cat*
+
+
 
 **Command With Path to a File**
 
+*cd*
   ![image](direct.png)
 > Calling 'cd lecture1/' calls the directory to change to lecture1, this is the argument input for the command cd.
+
+*ls*
+
+
+*cat*
+
+
