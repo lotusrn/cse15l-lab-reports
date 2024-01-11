@@ -6,3 +6,7 @@ By Ren Sano
 
   ![Image](noarg.png)
   > This code in the terminal requires no arguments, as it calls to show what directories are accessible on the 
+
+**Command With Path to a File**
+
+![image](direct.png)
