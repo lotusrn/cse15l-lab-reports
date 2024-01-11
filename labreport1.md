@@ -5,7 +5,9 @@ By Ren Sano
 # **Command With NO Arguments**
 
 *cd*
- 
+
+  ![Image](cdnoarg.png)
+ > As we are currently in the lecture1 directory, calling 'cd' without any argument automatically tells the terminal to change directories back home, indicating in the terminal's brackets.
 ---
 *ls*
 
