@@ -5,8 +5,9 @@ By Ren Sano
 **Command With NO Arguments**
 
   ![Image](noarg.png)
-  > This code in the terminal requires no arguments, as it calls to show what directories are accessible on the 
+> This code in the terminal requires no arguments, as it calls 'ls' to show what directories are accessible on the current position you're in at the respository, which is /home.
 
 **Command With Path to a File**
 
-![image](direct.png)
+  ![image](direct.png)
+> Calling 'cd lecture1/' calls the directory to change to lecture1, this is the argument input for the command cd.
