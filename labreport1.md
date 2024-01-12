@@ -28,6 +28,9 @@ By Ren Sano
 ---
 *ls*
 
+  ![Image](images/lsdirect.png)
+> This example we are in the lecture1 directory, and by calling 'ls messages' takes the input of the messages directory and commands the terminal to access this file and see the contents it withholds
+
 ---
 *cat*
 
