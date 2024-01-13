@@ -12,7 +12,7 @@ By Ren Sano
 *ls*
 
  ![Image](images/noarg.png)
-> By calling 'ls' without any arguments, it indicates to show what files are accessible on the current directory you're in, which this example we are in the /home directory.
+> By calling 'ls' without any arguments, it indicates to show what files are accessible on the current directory you're in, which this example we are being shown what accessible files and directories are in the /home directory.
 ---
 *cat*
 
