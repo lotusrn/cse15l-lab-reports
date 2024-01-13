@@ -23,12 +23,12 @@ By Ren Sano
 
 *cd*
 
-  ![image](images/direct.png)
+  ![Image](images/direct.png)
 > Calling 'cd lecture1/' calls the directory to change from home to lecture1, 'lecture1' being the argument input for the command cd.
 ---
 *ls*
 
-  ![Image](images/lsdirect.png)
+ ![Image]images/lsdirect.png
 > This example we are in the lecture1 directory, and by calling 'ls messages' takes the input of the messages directory and commands the terminal to access this file and see the contents it withholds
 
 ---
