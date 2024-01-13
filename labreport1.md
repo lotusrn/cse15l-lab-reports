@@ -2,6 +2,7 @@
 
 By Ren Sano
 
+
 # **Command With NO Arguments**
 
 *cd*
@@ -18,6 +19,7 @@ By Ren Sano
 
 ![Image](images/catnoarg.png)
 > By calling 'cat' in the terminal with no arguments, it waits for user input from the terminal as this command requires at least one or two inputs in the command line to concatenate. By typing a message into the terminal and pressing enter, it will return and display that input instead. If done nothing, it will return nothing and be left blank. 
+
 
 # **Command With Path to a Directory**
 
@@ -36,6 +38,7 @@ By Ren Sano
 
   ![Image](images/catdirect.png)
 > By working in the lecture1 directory, we can utilize 'messages/fl-ph.txt' as an input for the 'cat' command to quickly access the messages directory, and display the contents within the requested file, 'fl-ph.txt', onto the terminal.
+
 
 # **Command With Path to a File**
 
