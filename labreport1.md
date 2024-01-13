@@ -42,7 +42,7 @@ By Ren Sano
 *cd*
 
   ![Image](images/cdpath.png)
-> 
+> In the lecture1 direc
 
 ---
 *ls*
