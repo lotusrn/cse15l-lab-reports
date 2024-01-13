@@ -29,10 +29,13 @@ By Ren Sano
 *ls*
 
  ![Image](images/lsdirect.png)
-> This example we are in the lecture1 directory, and by calling 'ls messages' takes the input of the messages directory and commands the terminal to access this file and see the contents it withholds
+> This example we are in the /home directory, and by calling 'ls lecture1/messages' takes the input of the first accessing the lecture1 directory, and then messages directory to command the terminal to access ahd display the files within the messages directory.
 
 ---
 *cat*
+
+  ![Image](images/catdirect.png)
+> Through accessing the lecture1 directory, we can utilize 'messages/fl-ph.txt' as an input for the 'cat' command to quickly access the messages directory, and display the contents within the requested file, 'fl-ph.txt', onto the terminal.
 
 # **Command With Path to a File**
 
