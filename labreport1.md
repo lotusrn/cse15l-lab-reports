@@ -41,9 +41,18 @@ By Ren Sano
 
 *cd*
 
+  ![Image](images/cdpath.png)
+> 
+
 ---
 *ls*
 
+  ![Image](images/lspath.png)
+>
+
 ---
 *cat*
+
+  ![Image](images/catpath.png)
+> 
 
