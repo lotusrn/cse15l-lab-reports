@@ -9,11 +9,13 @@ By Ren Sano
 
   ![Image](images/cdnoarg.png)
  > As we are currently working in the lecture1 directory, calling 'cd' without any arguments automatically tells the terminal to change directories back home, indicating in the terminal's brackets.
+
 ---
 *ls*
 
  ![Image](images/noarg.png)
 > By calling 'ls' without any arguments, it indicates to show what files are accessible on the current directory you're in, which this example we are being shown what accessible files and directories are in the working /home directory.
+
 ---
 *cat*
 
@@ -27,6 +29,7 @@ By Ren Sano
 
   ![Image](images/direct.png)
 > Calling 'cd lecture1/' calls the directory to change from the working home directory, to lecture1, our argument input being 'lecture1' for the command cd.
+
 ---
 *ls*
 
