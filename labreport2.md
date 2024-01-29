@@ -10,6 +10,7 @@ By Ren Sano
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
+
 class Handler implements URLHandler {
    private ArrayList<String> messages = new ArrayList<>();
     public String handleRequest(URI url) {
@@ -40,9 +41,10 @@ class Handler implements URLHandler {
         } else {
             return "404 Not Found!"; // what r u tryna do bruv
         }
-        }
+      }
     }
-}      
+}
+
 class ChatServer {
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
