@@ -54,4 +54,12 @@ class ChatServer {
         int port = Integer.parseInt(args[0]);
         ServerEngine.start(port, new Handler());
     }
-}        ```
+}        
+```
+
+**Utilizing /add-message**
+---
+
+* In this example, the `handleRequest` and `main` methods are being called as the input that's taken is from the server url being changed by the user and the main method requests this input and returns with one of the returns from the code.  //methods as in the split and query stuff?
+* The relevant arguments for these methods is the `URI` class, which takes HTTP requests. This then goes through a series of code that identifies the 's' and 'user' queries to take the user's arguments of their name and message and put it into one organized message in the format of `<user>: <message>`.
+* The values of these fields change when a new user input passes and isn't thrown. The `handleRequest` method extracts the string inputs within the . When successful it will input this data into the Strings, `user` and `msg`. and displays this to the user when simply calling '/' at the end of the server url, and also adds onto the 'messages' list to display previously sent messages
