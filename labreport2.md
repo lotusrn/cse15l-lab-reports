@@ -6,7 +6,7 @@ By Ren Sano
 ---
 **Chat Server Code :**
 
-`
+```
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
@@ -52,4 +52,4 @@ class ChatServer {
         int port = Integer.parseInt(args[0]);
         ServerEngine.start(port, new Handler());
     }
-}        `
+}        ```
