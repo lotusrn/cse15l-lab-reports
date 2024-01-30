@@ -76,5 +76,5 @@ class ChatServer {
 ---
   ![Image](images/msgOneArg.png)
 * In this *other* example, the `handleRequest` and `main` methods are still being called as there's at least still one input being the input that's taken as an argument in the `handleRequest` method. Because there *is* only one argument, this doesn't pass all of the method's parameters, as it only has the message input after `s=`, but no `user=` and username input after including the `&` query. Because of this, the return outcome when the main method calls this url request is `Argument format is invalid!`.
-* T
+* 
 
