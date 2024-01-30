@@ -42,7 +42,7 @@ class Handler implements URLHandler {
                 messages.add(newMessage);
                 return newMessage;
             } else {
-                return "Invalid request format!"; // invalid arg
+                return "Argument format is invalid!"; // invalid arg
             }
         } else {
             return "404 Not Found!"; // what r u tryna do bruv
@@ -69,6 +69,12 @@ class ChatServer {
 **Utilizing /add-message**
 ---
   ![Image](images/msgRen.png)
-* In this example, the `handleRequest` and `main` methods are being called as the input that's taken is from the server url being changed by the user and the main method requests this input and returns with one of the returns from the code.  //methods as in the split and query stuff?
-* The relevant arguments for these methods is the `URI` class, which takes HTTP requests. This then goes through a series of code that identifies the 's' and 'user' queries to take the user's arguments, `:3` and `ren`, and put it into one organized message in the format of `<user>: <message>`.
-* The values of these fields change when a new user input passes and isn't thrown. The `handleRequest` method extracts the string inputs within the queries on the url. Passing all of the arguments will input this data into the Strings, `user` and `msg`. and displays this to the user once done running, also adding onto the 'messages' list to display previously sent messages.
+* In this example, the `handleRequest` and `main` methods are being called as the input taken from the website's url and runs through several commands to format the user and message. Then, the main method requests the output of the `handleRequest` method and returns with one of the return outcomes from the code.
+* The relevant arguments for these methods is the `URI` class, which takes HTTP requests, following whatever path the url is changed into if existing. In this example we utilize the `/add-message` path, which then expects two more arguments divided by an `&` symbol, representing the message and the user. With another set of parameters, the code identifies the inputs after `s=` and `user=` as the message and username. These specific arguments within the `/add-message` path take the user input, `:3` and `ren`, and put it into one organized message in the format of `<user>: <message>`.
+* The value that tends to change the most depending on the outcome request is the `private List<String> messages` variable. As this example passes all of the arguments within the `handleRequest`, it will input the formatted data into the `messages` List. When calling the empty path `/`, it will display all the previous messages sent in the exact format, line by line.
+
+---
+  ![Image](images/msgOneArg.png)
+* In this *other* example, the `handleRequest` and `main` methods are still being called as there's at least still one input being the input that's taken as an argument in the `handleRequest` method. Because there *is* only one argument, this doesn't pass all of the method's parameters, as it only has the message input after `s=`, but no `user=` and username input after including the `&` query. Because of this, the return outcome when the main method calls this url request is `Argument format is invalid!`.
+* T
+
