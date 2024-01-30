@@ -8,33 +8,40 @@ class Handler implements URLHandler {
    private ArrayList<String> messages = new ArrayList<>();
 
     public String handleRequest(URI url) {
-        String user = "";
-        String msg = "";
-
         if (url.getPath().equals("/")) {
-            return "Recent Messages : " + messages;
+            return String.join("\n", messages); // joins lines
         } else {
-            if (url.getPath().contains("/add-message")) {
-                String[] parameters = url.getQuery().split("&");
-            
+        
+        if (url.getPath().equals("/add-message")) {
+            String[] parameters = url.getQuery().split("&"); //splits msg&user
+
+            String user = "";
+            String msg = "";
+
             for (String parameter : parameters) {
-                String[] value = parameter.split("=");
-                if (value.length == 2){
-                    if (parameters[0].equals("s")) {  
-                        msg = value[1];
-                    } else if (value[0].equals("user")){
-                        user = value[1];
+                String[] text = parameter.split("="); // takes msg&user string
+                if (text.length == 2) {
+                    if (text[0].equals("s")) {
+                        msg = text[1];
+                    } else if (text[0].equals("user")) {
+                        user = text[1];
                     }
-                    String newMessage = String.format("%s: %s", user, msg);
-                    messages.add(newMessage);
-                    return String.join("\n", messages);
                 }
-                
             }
-          }
-        } return "404 Not Found!";
+            if (!user.isEmpty() && !msg.isEmpty()) { 
+                String newMessage = String.format("%s: %s", user, msg);
+                messages.add(newMessage);
+                return newMessage;
+            } else {
+                return "Argument format is invalid!"; // invalid arg
+            }
+        } else {
+            return "404 Not Found!"; // what r u tryna do bruv
+        }
     }
-}
+
+    }
+}         
 
 class ChatServer {
     public static void main(String[] args) throws IOException {
