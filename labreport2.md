@@ -88,3 +88,7 @@ class ChatServer {
 ## `Logging in W/O Password on Local Computer`
   ![Image](images/login.png)
 
+**Reflection**
+---
+
+From the past labs in week 2 and 3, I've learned completely new concepts that I haven't know before such as how to utilize markdown and GitHub as an efficient way to document my code. Specifically in coding, I've also have gained a deeper understanding of terminals and how to use them in practical use in terms of web development and nagivating through private and local spaces.
