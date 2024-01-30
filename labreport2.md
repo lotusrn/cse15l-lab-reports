@@ -12,15 +12,21 @@ import java.net.URI;
 import java.util.ArrayList;
 
 class Handler implements URLHandler {
+    // The one bit of state on the server: a number that will be manipulated by
+    // various requests.
    private ArrayList<String> messages = new ArrayList<>();
+
     public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
             return String.join("\n", messages); // joins lines
         } else {
+        
         if (url.getPath().equals("/add-message")) {
             String[] parameters = url.getQuery().split("&"); //splits msg&user
+
             String user = "";
             String msg = "";
+
             for (String parameter : parameters) {
                 String[] text = parameter.split("="); // takes msg&user string
                 if (text.length == 2) {
@@ -34,16 +40,17 @@ class Handler implements URLHandler {
             if (!user.isEmpty() && !msg.isEmpty()) { 
                 String newMessage = String.format("%s: %s", user, msg);
                 messages.add(newMessage);
-                return "Message Added!";
+                return newMessage;
             } else {
                 return "Invalid request format!"; // invalid arg
             }
         } else {
             return "404 Not Found!"; // what r u tryna do bruv
         }
-      }
     }
-}
+
+    }
+}         
 
 class ChatServer {
     public static void main(String[] args) throws IOException {
@@ -51,15 +58,17 @@ class ChatServer {
             System.out.println("Missing port number! Try any number between 1024 to 49151");
             return;
         }
+
         int port = Integer.parseInt(args[0]);
+
         ServerEngine.start(port, new Handler());
     }
-}        
+}    
 ```
 
 **Utilizing /add-message**
 ---
-
+  ![Image](images/msgRen.png)
 * In this example, the `handleRequest` and `main` methods are being called as the input that's taken is from the server url being changed by the user and the main method requests this input and returns with one of the returns from the code.  //methods as in the split and query stuff?
-* The relevant arguments for these methods is the `URI` class, which takes HTTP requests. This then goes through a series of code that identifies the 's' and 'user' queries to take the user's arguments of their name and message and put it into one organized message in the format of `<user>: <message>`.
+* The relevant arguments for these methods is the `URI` class, which takes HTTP requests. This then goes through a series of code that identifies the 's' and 'user' queries to take the user's arguments, `:3` and `ren`, and put it into one organized message in the format of `<user>: <message>`.
 * The values of these fields change when a new user input passes and isn't thrown. The `handleRequest` method extracts the string inputs within the . When successful it will input this data into the Strings, `user` and `msg`. and displays this to the user when simply calling '/' at the end of the server url, and also adds onto the 'messages' list to display previously sent messages
