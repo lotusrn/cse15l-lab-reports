@@ -78,3 +78,13 @@ class ChatServer {
 * In this *other* example, the `handleRequest` and `main` methods are still being called as there's at least still one input being the input that's taken as an argument in the `handleRequest` method.
 * Because there *is* only one argument, this doesn't pass all of the method's parameters in the `/add-message` path, as it only has the message input after `s=`, but no `&` query and `user=` and username input. Because the argument needed in the `URI` class is two string arguments, the return outcome of the code when the main method calls this url request is, `Argument format is invalid!`.
 * The `private List<String> messages` field did not change as this example did not successfully pass all the needed arguments in the `/add-message` path. This request of `/add-message?s=Hello!` is an unfulfilled request as the code doesn't fulfill the user argument that determines the name of the user, not adding a new String into the `messages` List.
+
+**Private and Public Keys**
+---
+## `Private Key on Local Computer`
+  ![Image](images/compAbsPath.png)
+## `Public Key on Ieng6 Server`
+  ![Image](images/ieng6AbsPath.png)
+## `Logging in W/O Password on Local Computer`
+  ![Image](images/login.png)
+
