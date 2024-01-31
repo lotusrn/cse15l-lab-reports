@@ -10,13 +10,13 @@ By Ren Sano
   ![Image](images/cdnoarg.png)
  > As we are currently working in the `/home/lecture1` directory, calling `cd` without any arguments *does not* run into an error, as it instead indicates that the user wants the terminal to change directories back `/home`, indicating in the terminal's brackets. returning back to `~`. 
 
----
+
 # `ls`
 
  ![Image](images/noarg.png)
 > By calling `ls` without any arguments *also* does not run into an error. Just like the `cd` commend with arguments, it informs the terminal to show what files are accessible on the current directory you're in, which this example we are being shown what accessible files and directories are in the working `/home` directory.
 
----
+
 # `cat`
 
 ![Image](images/catnoarg.png)
@@ -30,13 +30,13 @@ By Ren Sano
   ![Image](images/direct.png)
 > Calling `cd lecture1/` from the working directory of `/home`, changes the directory from `/home`, to `./lecture`, our argument input being `lecture1` for the command cd. This makes the absolute path of the new working directory as `/home/lecture1`.
 
----
+
 # `ls`
 
  ![Image](images/lsdirect.png)
 > This example we are working in the `/home` directory, and by calling `ls lecture1/messages` translates to the terminal taking the first part of the path by accessing the `./lecture1` directory, and then `./messages` directory. Then, the `ls` command then extracts the data within the `./messages` directory to access and display the files within that directory. Through this, we can still stay working in the `/home` directory but somehow access what information and files can be within the `messages` directory through the `/home/lecture1/messages` path and calling `ls`.
 
----
+
 # `cat`
 
   ![Image](images/catdirect.png)
@@ -50,14 +50,14 @@ By Ren Sano
   ![Image](images/cdpath.png)
 > Working in the `./lecture1` directory, we try to call the `cd` command to access the `en-us.txt` file through the `./messages` directory by using `messages/en-us.txt` as the input arguement. This instead gives back an *error* due to the fact that the `cd` command only `changes` to `directories`, *not* text files such as `en-us.txt`.
 
----
+
 # `ls`
 
   ![Image](images/lspath.png)
 > Also working in the `./lecture1 directory`, we use the `ls` command with the argument of `messages/en-us.txt` to try and list any information about the file, `en-us.txt`. The command first accesses the `./messages` directory to get to the `en-us.txt`, then trying to extract any files and directories within this text file. Because of this, the terminal returns with the path the user inputted into the termial, `messages/en-us.txt`, as there are no files or directories within the
 `en-us.txt` file.
 
----
+
 # `cat`
 
   ![Image](images/catpath.png)
