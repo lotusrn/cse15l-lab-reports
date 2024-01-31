@@ -65,9 +65,10 @@ class ChatServer {
     }
 }    
 ```
-
-**Utilizing /add-message**
+# `Part 2` 
 ---
+**Utilizing /add-message**
+
   ![Image](images/msgRen.png)
 * In this example, the `handleRequest` and `main` methods are being called as the input taken from the website's url and runs through several commands to format the user and message. Then, the main method requests the output of the `handleRequest` method and returns with one of the return outcomes from the code.
 * The relevant argument for these methods is the `URI` class, which takes HTTP requests, following whatever path the url is changed into. In this example, we utilize the `/add-message` path, which is a URI url input. It expects two String arguments divided by an `&` symbol, representing the message and the user. With another set of parameters, the code identifies the inputs after `s=` and `user=` as the message and username. These specific arguments within the `/add-message` path take the String values, `:3` and `ren`, and put it into one organized message in the format of `<user>: <message>`.
@@ -88,7 +89,8 @@ class ChatServer {
 ## `Logging in W/O Password on Local Computer`
   ![Image](images/login.png)
 
-**Reflection**
+# `Part 3` 
 ---
+**Reflection**
 
 From the past labs in week 2 and 3, I've learned completely new concepts that I haven't know before such as how to utilize markdown and GitHub as an efficient way to document my code. Specifically in coding, I've also have gained a deeper understanding of terminals and how to use them in practical use in terms of web development and nagivating through private and local spaces.
