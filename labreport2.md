@@ -4,7 +4,7 @@ By Ren Sano
 
 # `Part 1` 
 ---
-**Chat Server Code :**
+**Chat Server Code**
 
 ```
 import java.io.IOException;
