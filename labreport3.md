@@ -14,6 +14,7 @@ static void reverseInPlace(int[] arr) {
 }
 ```
 
+**Faulty Test**
 ```
 @Test 
 	public void testReverseInPlace() {
@@ -23,7 +24,8 @@ static void reverseInPlace(int[] arr) {
 	}
 ```
 * This test case can't verify the functionality of this method very well, as it only reverses one value within the array, therefore the test case would only assume that one value to be returned.
-  
+
+**Effective Test**
 ```
 @Test
   public void REALtestReverseInPlace() {
