@@ -44,7 +44,7 @@ static void reverseInPlace(int[] arr) {
          int temp = arr[i];
          arr[i] = arr[length - i - 1];
          arr[length - i - 1] = temp;
-     }
-  }
+    }
+}
 ```
 * The problem with the initial implementation of the `reverseInPlace` method is lies in the way elements are swapped. Instead of properly reversing the array, the code is assigning each element to its mirrored position from the end of the array. Because of this, the code overwrites all elements with the last one.
