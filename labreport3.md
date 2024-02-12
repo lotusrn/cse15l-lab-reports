@@ -5,7 +5,15 @@ By Ren Sano
 # `Part 1` 
 --- 
 **Bugged Code**
-> In this test, the original `reverseInPlace` method implementation passes in this test as there's only one value that's expected to be reversed.
+> In this test, the original `reverseInPlace` method implementation intends to take an array and return it in its reverse order of values.
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+}
+```
+
 ```
 @Test 
 	public void testReverseInPlace() {
@@ -24,4 +32,17 @@ By Ren Sano
     assertArrayEquals(new int[]{ 3, 2, 1 }, input2); Expected [1] but was [3]
   }
 ```
-* Based off of the intended logic of the method `reverseInPlace`, it's evident that the coding of this method was implemented 
+* Based off of the intended logic of the method `reverseInPlace`, it's evident that the coding of this method was implemented wrong, as the intentional positions of the array was not the outcome when the method was called. //check symptoms
+
+**FIXED CODE**
+```
+static void reverseInPlace(int[] arr) {
+    int length = arr.length;
+    for (int i = 0; i < length / 2; i++) {
+         int temp = arr[i];
+         arr[i] = arr[length - i - 1];
+         arr[length - i - 1] = temp;
+     }
+  }
+```
+* The problem with the initial implementation of the `reverseInPlace` method is lies in the way elements are swapped. Instead of properly reversing the array, the code is assigning each element to its mirrored position from the end of the array. Because of this, the code overwrites all elements with the last one.
