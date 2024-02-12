@@ -39,12 +39,16 @@ static void reverseInPlace(int[] arr) {
 **FIXED CODE**
 ```
 static void reverseInPlace(int[] arr) {
-    int length = arr.length;
-    for (int i = 0; i < length / 2; i++) {
+    for (int i = 0; i < arr.length / 2; i++) {
          int temp = arr[i];
-         arr[i] = arr[length - i - 1];
-         arr[length - i - 1] = temp;
+         arr[i] = arr[arr.length - i - 1];
+         arr[arr.length - i - 1] = temp;
     }
 }
 ```
 * The problem with the initial implementation of the `reverseInPlace` method is lies in the way elements are swapped. Instead of properly reversing the array, the code is assigning each element to its mirrored position from the end of the array. Because of this, the code overwrites all elements with the last one.
+* To fix this code, you need to swap elements from the beginning and end of the array. By altering the `for` loop to go from the middle of the array, we can apply the end values of the array to the start.
+
+# `Part 2` 
+--- 
+* Online, find 4 interesting command-line options or alternate ways to use the command you chose.
