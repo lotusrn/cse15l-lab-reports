@@ -82,8 +82,9 @@ plos/pmed.0020061.txt:  tests for the high-production-volume chemicals by 2005
 
 `rnesn@rahrahren MINGW64 ~/OneDrive/Desktop/kolehiyo/CSE/CSE15L/LABWEEK5/docsearch/technical (main)`
 
-`$ grep -i "saving" 911report/*.txt
-911report/chapter-12.txt:    damage and saving lives.
+`$ grep -i "saving" 911report/*.txt`
+
+`911report/chapter-12.txt:    damage and saving lives.
 911report/chapter-13.5.txt:   responded to the North Tower, where he was instrumental in saving many lives after
 911report/chapter-3.txt:   Taliban, who seemed "to be looking for a face-saving way out of the Bin Ladin
 `
@@ -94,10 +95,10 @@ plos/pmed.0020061.txt:  tests for the high-production-volume chemicals by 2005
 
 # grep -n (NUM) (path) (Source: Inputting `man grep` into the command Terminal)
 
-`rnesn@rahrahren MINGW64 ~/OneDrive/Desktop/kolehiyo/CSE/CSE15L/LABWEEK5/docsearch/technical (main)`
+`rnesn@rahrahren MINGW64 ~/OneDrive/Desktop/kolehiyo/CSE/CSE15L/LABWEEK5/docsearch/technical (main)
+$ grep -n 'disease' government/Alcohol_Problems/*.txt`
 
-`$ grep -n 'disease' government/Alcohol_Problems/*.txt
-government/Alcohol_Problems/Session2-PDF.txt:46:disease develops. WHO defines hazardous drinking as 4 or more
+`government/Alcohol_Problems/Session2-PDF.txt:46:disease develops. WHO defines hazardous drinking as 4 or more
 government/Alcohol_Problems/Session3-PDF.txt:56:medical conditions such as liver disease or pancreatitis.
 government/Alcohol_Problems/Session3-PDF.txt:358:statement "alcoholism is a treat-able disease" received a mean
 government/Alcohol_Problems/Session3-PDF.txt:364:abuse/dependence is a "treatable disease," but more than 90%
@@ -117,8 +118,7 @@ government/Alcohol_Problems/Session4-PDF.txt:1031:receive necessary treatment fo
 
 # grep -m (NUM) (path) (Source: Inputting `man grep` into the command Terminal)
 
-`rnesn@rahrahren MINGW64 ~/OneDrive/Desktop/kolehiyo/CSE/CSE15L/LABWEEK5/docsearch/technical (main)`
+`rnesn@rahrahren MINGW64 ~/OneDrive/Desktop/kolehiyo/CSE/CSE15L/LABWEEK5/docsearch/technical (main)
+$ grep -m 1 '2005' */*.txt`
 
-`$ grep -m 1 '2005' */*.txt
-911report/chapter-12.txt: end of 2005. Many of the act's provisions are relatively noncontroversial, updating
-`
+`911report/chapter-12.txt: end of 2005. Many of the act's provisions are relatively noncontroversial, updating`
