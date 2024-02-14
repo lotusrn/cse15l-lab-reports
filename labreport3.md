@@ -75,6 +75,7 @@ plos/pmed.0020061.txt:  tests for the high-production-volume chemicals by 2005
 
 
 > grep -i (PATTERN) (path) (Source: Inputting `man grep` into the command Terminal)
+
 `rnesn@rahrahren MINGW64 ~/OneDrive/Desktop/kolehiyo/CSE/CSE15L/LABWEEK5/docsearch/technical (main)
 $ grep -i "saving" 911report/*.txt
 911report/chapter-12.txt:    damage and saving lives.
@@ -84,6 +85,7 @@ $ grep -i "saving" 911report/*.txt
 
 
 > grep -n (NUM) (path) (Source: Inputting `man grep` into the command Terminal)
+
 `rnesn@rahrahren MINGW64 ~/OneDrive/Desktop/kolehiyo/CSE/CSE15L/LABWEEK5/docsearch/technical (main)
 $ grep -n 'disease' government/Alcohol_Problems/*.txt
 government/Alcohol_Problems/Session2-PDF.txt:46:disease develops. WHO defines hazardous drinking as 4 or more
