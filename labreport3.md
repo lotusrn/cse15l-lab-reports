@@ -2,7 +2,7 @@
 
 By Ren Sano
 
-# `Part 1 : Bugs` 
+# `Part 1` 
 --- 
 **Original Code**
 > In this test, the original `reverseInPlace` method implementation intends to take the `int[] arr` and return it in its reverse order of values witin the array.
@@ -49,7 +49,7 @@ static void reverseInPlace(int[] arr) {
 * The problem with the initial implementation of the `reverseInPlace` method is lies in the way elements are swapped. Instead of properly reversing the array, the code is assigning each element to its mirrored position from the end of the `int[] arr`. Because of this, the code overwrites all elements with the last one.
 * To fix this code, you need to swap elements from the beginning and end of the array. By altering the `for-loop` to go from the middle of the array, we can apply the end value of the array, which is 3, and append it to the start.
 
-# `Part 2 : Researching Commands` 
+# `Part 2` 
 --- 
 
 ## **I chose to research more about the `grep` command**
