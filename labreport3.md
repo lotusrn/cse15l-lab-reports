@@ -73,7 +73,9 @@ plos/pmed.0020061.txt:  tests for the high-production-volume chemicals by 2005
 [there's a LOT more results...]
 `
 
+
 ---
+
 
 # grep -i (PATTERN) (path) (Source: Inputting `man grep` into the command Terminal)
 
@@ -84,7 +86,9 @@ $ grep -i "saving" 911report/*.txt
 911report/chapter-3.txt:   Taliban, who seemed "to be looking for a face-saving way out of the Bin Ladin
 `
 
+
 ---
+
 
 # grep -n (NUM) (path) (Source: Inputting `man grep` into the command Terminal)
 
@@ -104,7 +108,9 @@ government/Alcohol_Problems/Session4-PDF.txt:1018:extent that they cover treatme
 government/Alcohol_Problems/Session4-PDF.txt:1031:receive necessary treatment for their disease. Instead, there i
 `
 
+
 ---
+
 
 # grep -m (NUM) (path) (Source: Inputting `man grep` into the command Terminal)
 
