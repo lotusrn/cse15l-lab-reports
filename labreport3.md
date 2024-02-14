@@ -70,14 +70,18 @@ plos/pmed.0020023.txt:  this amount is less than half of what is required by 200
 plos/pmed.0020023.txt:  antiretroviral therapy by the end of 2005 (the “3 by 5” objective) provides a yardstick for
 plos/pmed.0020039.txt:  In their study in the January 2005 issue of 
 plos/pmed.0020061.txt:  tests for the high-production-volume chemicals by 2005
-[there's a LOT more results...]`
+[there's a LOT more results...]
+`
+
 
 > grep -i (PATTERN) (path) (Source: Inputting `man grep` into the command Terminal)
 `rnesn@rahrahren MINGW64 ~/OneDrive/Desktop/kolehiyo/CSE/CSE15L/LABWEEK5/docsearch/technical (main)
 $ grep -i "saving" 911report/*.txt
 911report/chapter-12.txt:    damage and saving lives.
 911report/chapter-13.5.txt:   responded to the North Tower, where he was instrumental in saving many lives after
-911report/chapter-3.txt:   Taliban, who seemed "to be looking for a face-saving way out of the Bin Ladin`
+911report/chapter-3.txt:   Taliban, who seemed "to be looking for a face-saving way out of the Bin Ladin
+`
+
 
 > grep -n (NUM) (path) (Source: Inputting `man grep` into the command Terminal)
 `rnesn@rahrahren MINGW64 ~/OneDrive/Desktop/kolehiyo/CSE/CSE15L/LABWEEK5/docsearch/technical (main)
@@ -93,9 +97,12 @@ government/Alcohol_Problems/Session4-PDF.txt:706:of depression: effective diseas
 government/Alcohol_Problems/Session4-PDF.txt:874:risk factor for particular injuries or disease. In 1998, Academic
 government/Alcohol_Problems/Session4-PDF.txt:931:need to be clear about the disease processes that we are interested
 government/Alcohol_Problems/Session4-PDF.txt:1018:extent that they cover treatment for other diseases. There is no
-government/Alcohol_Problems/Session4-PDF.txt:1031:receive necessary treatment for their disease. Instead, there is`
+government/Alcohol_Problems/Session4-PDF.txt:1031:receive necessary treatment for their disease. Instead, there i
+`
+
 
 > grep -m
 `rnesn@rahrahren MINGW64 ~/OneDrive/Desktop/kolehiyo/CSE/CSE15L/LABWEEK5/docsearch/technical (main)
 $ grep -m 1 '2005' */*.txt
-911report/chapter-12.txt: end of 2005. Many of the act's provisions are relatively noncontroversial, updating`
+911report/chapter-12.txt: end of 2005. Many of the act's provisions are relatively noncontroversial, updating
+`
