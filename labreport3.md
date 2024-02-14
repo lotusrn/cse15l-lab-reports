@@ -73,6 +73,7 @@ plos/pmed.0020061.txt:  tests for the high-production-volume chemicals by 2005
 [there's a LOT more results...]
 `
 
+---
 
 > grep -i (PATTERN) (path) (Source: Inputting `man grep` into the command Terminal)
 
@@ -83,6 +84,7 @@ $ grep -i "saving" 911report/*.txt
 911report/chapter-3.txt:   Taliban, who seemed "to be looking for a face-saving way out of the Bin Ladin
 `
 
+---
 
 > grep -n (NUM) (path) (Source: Inputting `man grep` into the command Terminal)
 
@@ -102,8 +104,10 @@ government/Alcohol_Problems/Session4-PDF.txt:1018:extent that they cover treatme
 government/Alcohol_Problems/Session4-PDF.txt:1031:receive necessary treatment for their disease. Instead, there i
 `
 
+---
 
 > grep -m
+
 `rnesn@rahrahren MINGW64 ~/OneDrive/Desktop/kolehiyo/CSE/CSE15L/LABWEEK5/docsearch/technical (main)
 $ grep -m 1 '2005' */*.txt
 911report/chapter-12.txt: end of 2005. Many of the act's provisions are relatively noncontroversial, updating
