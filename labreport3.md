@@ -52,7 +52,7 @@ static void reverseInPlace(int[] arr) {
 # `Part 2 : Researching Commands` 
 --- 
 
-> **I chose to research more about the `grep` command**
+## **I chose to research more about the `grep` command**
 
  
 **grep -w (PATTERN) (path) (Source: Inputting `man grep` into the command Terminal)**
