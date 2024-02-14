@@ -53,8 +53,7 @@ static void reverseInPlace(int[] arr) {
 --- 
 * I chose to research more about the `grep` command
 
-# grep -w (PATTERN) (path) (Source: Inputting `man grep` into the command Terminal)
-
+**grep -w (PATTERN) (path) (Source: Inputting `man grep` into the command Terminal)**
 ```
 rnesn@rahrahren MINGW64 ~/OneDrive/Desktop/kolehiyo/CSE/CSE15L/LABWEEK5/docsearch/technical (main)
 $ grep -w "2005" */*.txt`
@@ -79,8 +78,7 @@ plos/pmed.0020061.txt:  tests for the high-production-volume chemicals by 2005
 ---
 
 
-# grep -i (PATTERN) (path) (Source: Inputting `man grep` into the command Terminal)
-
+**grep -i (PATTERN) (path) (Source: Inputting `man grep` into the command Terminal)**
 ```
 rnesn@rahrahren MINGW64 ~/OneDrive/Desktop/kolehiyo/CSE/CSE15L/LABWEEK5/docsearch/technical (main)
 $ grep -i "saving" 911report/*.txt
@@ -94,8 +92,7 @@ $ grep -i "saving" 911report/*.txt
 ---
 
 
-# grep -n (NUM) (path) (Source: Inputting `man grep` into the command Terminal)
-
+**grep -n (NUM) (path) (Source: Inputting `man grep` into the command Terminal)**
 ```
 rnesn@rahrahren MINGW64 ~/OneDrive/Desktop/kolehiyo/CSE/CSE15L/LABWEEK5/docsearch/technical (main)
 $ grep -n 'disease' government/Alcohol_Problems/*.txt
@@ -118,8 +115,7 @@ government/Alcohol_Problems/Session4-PDF.txt:1031:receive necessary treatment fo
 ---
 
 
-# grep -m (NUM) (path) (Source: Inputting `man grep` into the command Terminal)
-
+**grep -m (NUM) (path) (Source: Inputting `man grep` into the command Terminal)**
 ```
 rnesn@rahrahren MINGW64 ~/OneDrive/Desktop/kolehiyo/CSE/CSE15L/LABWEEK5/docsearch/technical (main)
 $ grep -m 1 '2005' */*.txt
