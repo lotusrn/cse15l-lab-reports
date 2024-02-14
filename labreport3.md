@@ -67,21 +67,10 @@ plos/pmed.0020016.txt:  billion for the fight against HIV/AIDS in 2005 [2]. In 2
 plos/pmed.0020016.txt:  in most urgent need—by the end of 2005. The potential epidemiologic impact of large-scale
 plos/pmed.0020016.txt:  treatment by the end of 2005 is attained, and scale-up continues to reach 80% ART
 plos/pmed.0020023.txt:  this amount is less than half of what is required by 2005, and only a quarter of what will
-plos/pmed.0020023.txt:        antiretroviral therapy by the end of 2005 (the “3 by 5” objective) provides a yardstick for
+plos/pmed.0020023.txt:  antiretroviral therapy by the end of 2005 (the “3 by 5” objective) provides a yardstick for
 plos/pmed.0020039.txt:  In their study in the January 2005 issue of 
 plos/pmed.0020061.txt:  tests for the high-production-volume chemicals by 2005
-plos/pmed.0020067.txt:  place in 2005. The
-plos/pmed.0020158.txt:  publishing in June 2005; 
-plos/pmed.0020158.txt:  PLoS Genetics (www.plosgenetics.org), scheduled for July 2005; and
-plos/pmed.0020158.txt:  PLoS Pathogens (www.plospathogens.org), scheduled for September 2005.
-plos/pmed.0020160.txt:  2005 as an international treaty aimed at controlling tobacco packaging, marketing, and use
-plos/pmed.0020208.txt:  On May 15, 2005, the Public Library of Science and the Government Accountability
-plos/pmed.0020209.txt:  be unduly influenced by industry, on May 15, 2005, I brought together five whistleblowers
-plos/pmed.0020210.txt:  This prediction was already borne out at the April 2005 meeting, “Drug Development for
-plos/pmed.0020216.txt:  Nepal are HIV-1, although HIV-2 was also recently reported [6]. As of February 2005, the
-plos/pmed.0020278.txt:  The only people who don't know in 2005 that animal research is irrelevant for human
-plos/pmed.0020281.txt:  D.C., on May 15th, 2005, at the invitation and support of the Public Library of Science and
-plos/pmed.0020281.txt:  2005): “To leave the world a bit better, whether by a healthy child, a garden patch or a`
+[there's a LOT more results...]`
 
 > grep -i (PATTERN) (path) (Source: Inputting `man grep` into the command Terminal)
 `rnesn@rahrahren MINGW64 ~/OneDrive/Desktop/kolehiyo/CSE/CSE15L/LABWEEK5/docsearch/technical (main)
