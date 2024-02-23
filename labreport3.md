@@ -6,6 +6,7 @@ By Ren Sano
 --- 
 **Original Code**
 > In this test, the original `reverseInPlace` method implementation intends to take the `int[] arr` and return it in its reverse order of values witin the array.
+
 ```
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
