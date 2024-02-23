@@ -5,7 +5,7 @@ By Ren Sano
 # `Part 1` 
 --- 
 **Original Code**
-> In this test, the original `reverseInPlace` method implementation intends to take the `int[] arr` and return it in its reverse order of values witin the array.
+- In this test, the original `reverseInPlace` method implementation intends to take the `int[] arr` and return it in its reverse order of values witin the array.
 
 ```
 static void reverseInPlace(int[] arr) {
