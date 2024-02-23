@@ -56,7 +56,11 @@ static void reverseInPlace(int[] arr) {
 ## **I chose to research more about the `grep` command**
 
  
-**grep -w (PATTERN) (path) (Source: Inputting `man grep` into the command Terminal)**
+**grep -w "PATTERN" (path) (Source: Inputting `man grep` into the command Terminal)**
+- we can utilize `grep` by searching WHOLE WORDS in `" "`, and searches for it within a file
+- this returns the path and line in which the `"PATTERN"` shows up in the file
+- this could be helpful in mass-searching for a certain phrase in a large data-base instead of doing `CTRL+F` in each and every file
+  
 ```
 rnesn@rahrahren MINGW64 ~/OneDrive/Desktop/kolehiyo/CSE/CSE15L/LABWEEK5/docsearch/technical (main)
 $ grep -w "2005" */*.txt`
@@ -81,7 +85,9 @@ plos/pmed.0020061.txt:  tests for the high-production-volume chemicals by 2005
 ---
 
 
-**grep -i (PATTERN) (path) (Source: Inputting `man grep` into the command Terminal)**
+**grep -i "PATTERN" (path) (Source: Inputting `man grep` into the command Terminal)**
+- another use of `grep` is doing a CASE-INSENSITIVE search the string in `" "`, and searches for it within a file
+- though similar to `grep -w` this could be helpful in not worrying about the text manipulation of what you're searching for, in comparison to -w in which it must be exact
 ```
 rnesn@rahrahren MINGW64 ~/OneDrive/Desktop/kolehiyo/CSE/CSE15L/LABWEEK5/docsearch/technical (main)
 $ grep -i "saving" 911report/*.txt
@@ -96,6 +102,8 @@ $ grep -i "saving" 911report/*.txt
 
 
 **grep -n (NUM) (path) (Source: Inputting `man grep` into the command Terminal)**
+- this last use of `grep`, which i find to be the most useful, is searching for the string in `" "`, and returns the `NUM` amount of lines that is first found it within a file
+- this could be helpful in searching for the earliest 
 ```
 rnesn@rahrahren MINGW64 ~/OneDrive/Desktop/kolehiyo/CSE/CSE15L/LABWEEK5/docsearch/technical (main)
 $ grep -n 'disease' government/Alcohol_Problems/*.txt
