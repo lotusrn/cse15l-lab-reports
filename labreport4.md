@@ -6,14 +6,14 @@ By Ren Sano
 
 > Step 4
 
-[IMAGE](images/nopwlogin)
+![Image](images/nopwlogin)
 
 - I first login into my account on the `git bash` terminal by typing `ssh alsano@ieng6.ucsd.edu` + `EN`
 - This permits me to log-in into my remote `ieng6` account
 
 > Step 5
 
-[IMAGE](images/gitclone_ssh)
+![Image](images/gitclone_ssh)
 
 - Going on my GitHub website, I go to my forked repository and go to `<> CODE`,
   the `SSH` tab, and the icon to copy the link to my keyboard
