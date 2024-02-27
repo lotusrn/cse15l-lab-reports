@@ -34,14 +34,14 @@ By Ren Sano
 - Our first fix is the `sc` parameter of `filter`, I pressed `<13j>` to traverse 23 lines down to the line of error and I typed `<19l>` to position the cursor to be before `checker` 
 - I pressed `<i>` to enter `INSERT MODE`, and typed `<e><r>`
 - I pressed `<ESC>` to move to the next line of error. In `NORMAL MODE` I typed `<30j>` to move 30 lines down to the start of the line. Then, I pressed `<h><h><h><h><h>`
-- Entering `INSERT MODE` again with `<i>`, I typed `<BACSPACE>` + `<2>` + `ESC`
-- To finish editing this `.java` file, I typed `<:wq>`
+- Entering `INSERT MODE` again with `<i>`, I typed `<BACSPACE>` + `<2>` + `<ESC>`
+- To finish editing this `.java` file, I typed `<:wq>` + `<ENTER>`
 
 > Step 8
 
 ![Image](images/testpass.png)
 
-- I went back on my terminal history four up arrows to retrieve, `bash test.sh` + `<ENTER>`
+- I went back on my terminal history four up arrows to retrieve, `<bash test.sh>` + `<ENTER>`
 - This returns all tests passing when they're reran
 
 > Step 9
