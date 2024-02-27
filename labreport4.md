@@ -5,6 +5,7 @@ By Ren Sano
 # `Traversing Through VIM` 
 
 > Step 4
+
 ![Image](images/nopw_login.png)
 
 - I first login into my account on the `<git bash>` terminal by typing `<ssh alsano@ieng6.ucsd.edu>` + `<ENTER>`
@@ -12,6 +13,7 @@ By Ren Sano
 
 
 > Step 5
+
 ![Image](images/gitclone_ssh.png)
 
 - Going on my GitHub website, I go to my forked repository and go to `<> CODE`,
@@ -20,6 +22,7 @@ By Ren Sano
 
 
 > Step 6
+
 ![Image](images/testerror.png)
 
 - Then, I ran the `<bash test.sh>` + `<ENTER>` to check if all the test cases pass.
@@ -27,6 +30,7 @@ By Ren Sano
 
 
 > Step 7
+
 ![Image](images/vim.png)
 
 - To fix this, we edit the `ListExamples.java` by entering `<vim ListExamples.java>` + `<ENTER>` into the terminal
@@ -38,6 +42,7 @@ By Ren Sano
 
 
 > Step 8
+
 ![Image](images/testpass.png)
 
 - I went back on my terminal history four up arrows to retrieve, `<bash test.sh>` + `<ENTER>`
@@ -45,6 +50,7 @@ By Ren Sano
 
 
 > Step 9
+
 ![Image](images/gitpush.png)
 
 - To save these changes, we type `<git add>` + `<ListExamples.java>` + `<ENTER>`
