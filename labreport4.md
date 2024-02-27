@@ -19,7 +19,7 @@ By Ren Sano
   the `SSH` tab, and the icon to copy the link to my keyboard
 - On my terminal I typed `<git clone>` and `<CTRL+V>`, then `<ENTER>`
 
-
+***
 > Step 6
 
 ![Image](images/testerror.png)
@@ -27,7 +27,7 @@ By Ren Sano
 - Then, I ran the `<bash test.sh>` + `<ENTER>` to check if all the test cases pass.
 - This returned the `org.junit.runner.JUnitCommandLineParseResult` and `java.lang.IllegalArgumentException` error in the second test
 
-
+***
 > Step 7
 
 ![Image](images/vim.png)
@@ -39,7 +39,7 @@ By Ren Sano
 - Entering `INSERT MODE` again with `<i>`, I typed `<BACSPACE>` + `<2>` + `<ESC>`
 - To finish editing this `.java` file, I typed `<:wq>` + `<ENTER>`
 
-
+***
 > Step 8
 
 ![Image](images/testpass.png)
@@ -47,7 +47,7 @@ By Ren Sano
 - I went back on my terminal history four up arrows to retrieve, `<bash test.sh>` + `<ENTER>`
 - This returns all tests passing when they're reran
 
-
+***
 > Step 9
 
 ![Image](images/gitpush.png)
