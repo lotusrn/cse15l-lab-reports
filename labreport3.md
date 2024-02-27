@@ -88,6 +88,7 @@ plos/pmed.0020061.txt:  tests for the high-production-volume chemicals by 2005
 **grep -i "PATTERN" (path) (Source: Inputting `man grep` into the command Terminal)**
 - Another use of `grep` is doing a CASE-INSENSITIVE search the string in `" "`, and searches for it within a file
 - Though similar to `grep -w` this could be helpful in not worrying about the text manipulation of what you're searching for, in comparison to -w in which it must be exact
+  
 ```
 rnesn@rahrahren MINGW64 ~/OneDrive/Desktop/kolehiyo/CSE/CSE15L/LABWEEK5/docsearch/technical (main)
 $ grep -i "saving" 911report/*.txt
@@ -104,6 +105,7 @@ $ grep -i "saving" 911report/*.txt
 **grep -n "PATTERN" (path) (Source: Inputting `man grep` into the command Terminal)**
 - In this use of `grep`, which I find to be the most useful, is searching for the string in `" "`, and returns the line number where the `PATTERN` is found 
 - This could be helpful in searching for typos or times where a certain `PATTERN` is mentioned, so you can look for it when individually looking into the file yourself
+  
 ```
 rnesn@rahrahren MINGW64 ~/OneDrive/Desktop/kolehiyo/CSE/CSE15L/LABWEEK5/docsearch/technical (main)
 $ grep -n 'disease' government/Alcohol_Problems/*.txt
@@ -129,6 +131,7 @@ government/Alcohol_Problems/Session4-PDF.txt:1031:receive necessary treatment fo
 **grep -m (NUM) (path) (Source: Inputting `man grep` into the command Terminal)**
 - This last use of `grep`, which I find to be the most useful, is searching for the string in `" "`, and returns the `NUM` amount of files that finds the `PATTERN`
 - This could be helpful in searching for a certain amount of times the `PATTERN` pops up, maybe finding the first times they're mentioned in a database
+  
 ```
 rnesn@rahrahren MINGW64 ~/OneDrive/Desktop/kolehiyo/CSE/CSE15L/LABWEEK5/docsearch/technical (main)
 $ grep -m 1 '2005' */*.txt
