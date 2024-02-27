@@ -11,6 +11,7 @@ By Ren Sano
 - I first login into my account on the `<git bash>` terminal by typing `<ssh alsano@ieng6.ucsd.edu>` + `<ENTER>`
 - This permits me to log-in into my remote `ieng6` account
 
+***
 > Step 5
 
 ![Image](images/gitclone_ssh.png)
