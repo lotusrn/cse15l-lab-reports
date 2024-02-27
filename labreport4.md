@@ -23,14 +23,14 @@ By Ren Sano
 
 ![Image](images/testerror.png)
 
-- Then, I ran the `<bash test.sh>` to check if all the test cases pass.
+- Then, I ran the `<bash test.sh>` + `<ENTER>` to check if all the test cases pass.
 - This returned the `org.junit.runner.JUnitCommandLineParseResult` and `java.lang.IllegalArgumentException` error in the second test
 
 > Step 7
 
 ![Image](images/vim.png)
 
-- To fix this, we edit the `ListExamples.java` by entering `<vim ListExamples.java>` into the terminal
+- To fix this, we edit the `ListExamples.java` by entering `<vim ListExamples.java>` + `<ENTER>` into the terminal
 - Our first fix is the `sc` parameter of `filter`, I pressed `<13j>` to traverse 23 lines down to the line of error and I typed `<19l>` to position the cursor to be before `checker` 
 - I pressed `<i>` to enter `INSERT MODE`, and typed `<e><r>`
 - I pressed `<ESC>` to move to the next line of error. In `NORMAL MODE` I typed `<30j>` to move 30 lines down to the start of the line. Then, I pressed `<h><h><h><h><h>`
