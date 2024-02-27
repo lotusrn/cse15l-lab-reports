@@ -48,5 +48,5 @@ By Ren Sano
 
 ![Image](images/gitpush.png)
 
-- To save these changes, we type `<git add>` + `<ListExamples.java>`
+- To save these changes, we type `<git add>` + `<ListExamples.java>` + `<ENTER>`
 - `<git commit -m>` + `<"fixed bugs>` + `<ENTER>`, then to push onto GitHub, `<git push origin>` + `<ENTER>`
