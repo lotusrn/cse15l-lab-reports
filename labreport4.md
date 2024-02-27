@@ -28,7 +28,7 @@ By Ren Sano
 
 > Step 7
 
-![Image](images/.png)
+![Image](images/vim.png)
 
 - To fix this, we edit the `ListExamples.java` by entering `<vim ListExamples.java>` into the terminal
 - Our first fix is the `sc` parameter of `filter`, I pressed `<13j>` to traverse 23 lines down to the line of error and I typed `<19l>` to position the cursor to be before `checker` 
@@ -37,5 +37,16 @@ By Ren Sano
 - Entering `INSERT MODE` again with `<i>`, I typed `<BACSPACE>` + `<2>` + `ESC`
 - To finish editing this `.java` file, I typed `<:wq>`
 
-- To save these changes, we types `<git add>` + ListExamples.java`
+> Step 8
 
+![Image](images/testpass.png)
+
+- I went back on my terminal history four up arrows to retrieve, `bash test.sh` + `<ENTER>`
+- This returns all tests passing when they're reran
+
+> Step 9
+
+![Image](images/gitpush.png)
+
+- To save these changes, we type `<git add>` + `<ListExamples.java>`
+- `<git commit -m>` + `<"fixed bugs>` + `<ENTER>`, then to push onto GitHub, `<git push origin>` + `<ENTER>`
