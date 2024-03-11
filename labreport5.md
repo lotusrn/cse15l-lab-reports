@@ -8,7 +8,7 @@ By Ren Sano
 
 > ## Lab Report 2 User and Message Bug
 > 
->  * **Anonymous Badger** *
+> ***Anonymous Badger***
 > 
 > Hello! I'm working on the code for Lab Report 2, but it seems my code implementation for dividing the `User` and `Message` is wrong. Whenever I try to add a message using the `add-message?s=<MESSAGE>&user=<NAME>` endpoint, it only returns the message. Below is a screenshot of the output when I try to add a message.
 > 
@@ -17,13 +17,13 @@ By Ren Sano
 ---
 # 1 ANSWER
 
-> **Silly TA**
+> ***Silly TA***
 > 
 > Hi there,
 >
 > Looking at the photo, you might've misunderstood on how to separate the `<user>` and `<message>` inputs when coding the URL parameters. We might need more information about your code to help out with the issue, but please first try understanding what inputs are being properly retrieved by printing them out, then work from there on what arguments might've been parsed incorrectly. Any screenshots or copy/pastes of the terminal will be extremely helpful.
 
-> **Anonymous Badger**
+> ***Anonymous Badger***
 >
 > Yes of course. Here's my updated URL Path code and what happens when I try to print out the user and message by itself.
 > 
@@ -32,7 +32,7 @@ By Ren Sano
 > 
 > I'm still lost on what number arguement I'm supposed to retrieve once I split the use and message.
 
-> **Silly TA**
+> ***Silly TA***
 >
 > Thank you for providing the updated code. You're on the right track when parsing the `s=` and `user=` parameters, but let's take a closer look on what values you're taking.
 > 
