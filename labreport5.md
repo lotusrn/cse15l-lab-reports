@@ -55,7 +55,10 @@ cse15l-lab-reports/
    ├── ChatServer.java
    ├── Handler.java
 ```
+
+
 - Contents *BEFORE* fixing the bug
+  
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -108,24 +111,36 @@ class ChatServer {
     }
 }
 ```
+
+
 - Command to Trigger the Bug
+  
 ```
 curl "http://localhost:8080/add-message?s=Hello!&user=ren"
 ```
+
+
 - Fixing the Bug
 - To fix the bug, you need to correct the conditional statement that checks for the message input key in the URL parameters. Currently, the code incorrectly checks for "s" instead of "user".
+
+  
 - Incorrect Lines
+- 
 ```
 } else if (value[1].equals("user")) {           
    user = value[1];
 }
 ```
+
+
 - Fixed Lines
+  
 ```
 } else if (value[0].equals("user")) {        
    user = value[1];
 }
 ```
+
 
 # `Reflection`
 
