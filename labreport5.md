@@ -36,13 +36,9 @@ By Ren Sano
 >
 > Thank you for providing the updated code. You're on the right track when parsing the `s=` and `user=` parameters, but let's take a closer look on what values you're taking.
 > 
-> When splitting the URL parameters using `String[] parameters = url.getQuery().split("&");`, each parameter should be split into key-value pairs separated by the equals sign (=). For example, for the URL `add-message?s=Hello!&user=ren`, the array parameters would contain two elements: `s=Hello!` and `user=ren`.
+> When splitting the URL parameters using `String[] parameters = url.getQuery().split("&");`, each parameter should be split into key-value pairs separated by the equals sign (=). For example, for the URL `add-message?s=Hello!&user=ren`, the array parameters would contain two elements: `s=Hello!` and `user=ren`. But the issue arises when you are retriving the key and the value of `<user>` and `ren`, and `s` and `Hello!`.
 > 
-> Next, when splitting each parameter further using `String[] value = parameter.split("=");`, the resulting array value would contain two elements: the key (e.g., s or user) and the corresponding value.
-> 
-> In your code, you correctly identify the value associated with the key `user` using `value[0].equals("user")`, which retrieves the user input. However, there's an issue with how you're retrieving the message input.
->
-> In the line `msg = value[1];`, you're attempting to retrieve the message input. However, since the message parameter key is `s`, you should be checking for `s` instead of `user` in the conditional statement. Look carefully on what value arguments need ot be changed to retrieve the `s`. Let me know if you have any mroe questions!
+> When you split the parameter using `parameter.split("=")`, the value array will contain two elements: `value[0]` will be the key `<user>` and `value[1]` will be the corresponding value, or input. But in your if condition, you're checking if value[1] equals `user`, which is incorrect. Look back at what element you're comparing user to, and let me know if you have any more questions!
 
 ---
 
@@ -89,7 +85,7 @@ class Handler implements URLHandler {
                     }
                     String newMessage = String.format("%s: %s", user, msg);
                     messages.add(newMessage);
-                    //return String.join("\n", messages);
+                    return String.join("\n", messages);
                 }
                 
             }
