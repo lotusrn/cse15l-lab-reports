@@ -6,15 +6,17 @@ By Ren Sano
 
 - In this scenario, we are debugging the ChatServer from Week 2
 
+```
 > ## Lab Report 2 User and Message Bug
 > 
 > **Anonymous Badger**
 > 
 > Hello! I'm working on the code for Lab Report 2, but it seems my code implementation for dividing the `User` and `Message` is wrong. Whenever I try to add a message using the `add-message?s=<MESSAGE>&user=<NAME>` endpoint, it only returns the message. Below is a screenshot of the output when I try to add a message.
 > ![IMAGE](images/debug_output)
+```
 
 # 1 ANSWER
-
+```
 > **Silly TA**
 > 
 > Hi there,
@@ -39,6 +41,7 @@ By Ren Sano
 > In your code, you correctly identify the value associated with the key `user` using `value[0].equals("user")`, which retrieves the user input. However, there's an issue with how you're retrieving the message input.
 >
 > In the line `msg = value[1];`, you're attempting to retrieve the message input. However, since the message parameter key is `s`, you should be checking for `s` instead of `user` in the conditional statement. Look carefully on what value arguments need ot be changed to retrieve the `s`. Let me know if you have any mroe questions!
+```
 
 # `Reflection`
 
