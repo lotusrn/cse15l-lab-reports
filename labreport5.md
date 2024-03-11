@@ -19,11 +19,12 @@ By Ren Sano
 > Hi there,
 >
 > Looking at the photo, you might've misunderstood on how to separate the `<user>` and `<message>` inputs when coding the URL parameters. We might need more information about your code to help out with the issue, but please first try understanding what inputs are being properly retrieved by printing them out, then work from there on what arguments might've been parsed incorrectly. Any screenshots or copy/pastes of the terminal will be extremely helpful.
-    > **Anonymous Badger**
-    >
-    > Yes of course, here's my updated URL Path code and what happens when I try to print out the user and message by itself.
-    > ![IMAGE](images/bugged_code)
-    > ![IMAGE](images/bugged_output)  
+
+  > **Anonymous Badger**
+  >
+  > Yes of course, here's my updated URL Path code and what happens when I try to print out the user and message by itself.
+  > ![IMAGE](images/bugged_code)
+  > ![IMAGE](images/bugged_output)  
 
 # `Reflection`
 
