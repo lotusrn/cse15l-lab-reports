@@ -12,7 +12,7 @@ By Ren Sano
 > 
 > Hello! I'm working on the code for Lab Report 2, but it seems my code implementation for dividing the `User` and `Message` is wrong. Whenever I try to add a message using the `add-message?s=<MESSAGE>&user=<NAME>` endpoint, it only returns the message. Below is a screenshot of the output when I try to add a message.
 > 
-> ![IMAGE](images/debug_output)
+> ![Image](images/debug_output.png)
 
 ---
 # 1 ANSWER
@@ -27,8 +27,8 @@ By Ren Sano
 >
 > Yes of course. Here's my updated URL Path code and what happens when I try to print out the user and message by itself.
 > 
-> ![IMAGE](images/bugged_code)
-> ![IMAGE](images/bugged_output)
+> ![Image](images/bugged_code.png)
+> ![Image](images/bugged_output.png)
 > 
 > I'm still lost on what number arguement I'm supposed to retrieve once I split the use and message.
 ---
