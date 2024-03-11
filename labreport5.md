@@ -80,7 +80,7 @@ class Handler implements URLHandler {
                 if (value.length == 2){
                     if (value[0].equals("s")) {  
                         msg = value[1];           
-                    } else if (value[0].equals("user")){
+                    } else if (value[1].equals("user")){
                         user = value[1];
                     }
                     String newMessage = String.format("%s: %s", user, msg);
