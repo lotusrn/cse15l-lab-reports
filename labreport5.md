@@ -114,15 +114,15 @@ curl "http://localhost:8080/add-message?s=Hello!&user=ren"
 - To fix the bug, you need to correct the conditional statement that checks for the message input key in the URL parameters. Currently, the code incorrectly checks for "s" instead of "user".
 - Incorrect Lines
 ```
-if (value[0].equals("s")) {
-  msg = value[1];                                                 
-} else if (value[0].equals("user")){
-  user = value[1];
+} else if (value[1].equals("user")) {           
+   user = value[1];
 }
 ```
 - Fixed Lines
 ```
-
+} else if (value[0].equals("user")) {        
+   user = value[1];
+}
 ```
 
 # `Reflection`
