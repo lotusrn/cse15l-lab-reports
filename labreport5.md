@@ -4,6 +4,11 @@ By Ren Sano
 
 # `Debugging Scenario` 
 
+- In this scenario, we are debugging the ChatServer from Week 2
+
+> # Lab Report 2 User and Message Bug
+> **Anonymous Badger**
+> Hello! I'm working on the code for Lab Report 2, but it seems my code implementation for dividing the `User` and `Message` is wrong. Whenever I try to add a message using the `add-message?s=<MESSAGE>&user=<NAME>` endpoint, it only returns the message. Below is a screenshot of the output when I try to add a message.
 
 # `Reflection`
 
