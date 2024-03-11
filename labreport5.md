@@ -23,9 +23,10 @@ By Ren Sano
 
   > **Anonymous Badger**
   >
-  > Yes of course, here's my updated URL Path code and what happens when I try to print out the user and message by itself.
+  > Yes of course. Here's my updated URL Path code and what happens when I try to print out the user and message by itself.
   > ![IMAGE](images/bugged_code)
-  > ![IMAGE](images/bugged_output)  
+  > ![IMAGE](images/bugged_output)
+  > I'm still lost on what number arguement I'm supposed to retrieve once I split the use and message. I understand 
 
 # `Reflection`
 
