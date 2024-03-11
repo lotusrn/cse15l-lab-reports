@@ -31,7 +31,7 @@ By Ren Sano
 > ![Image](images/bugged_output.png)
 > 
 > I'm still lost on what number arguement I'm supposed to retrieve once I split the use and message.
----
+
 > **Silly TA**
 >
 > Thank you for providing the updated code. You're on the right track when parsing the `s=` and `user=` parameters, but let's take a closer look on what values you're taking.
@@ -43,6 +43,8 @@ By Ren Sano
 > In your code, you correctly identify the value associated with the key `user` using `value[0].equals("user")`, which retrieves the user input. However, there's an issue with how you're retrieving the message input.
 >
 > In the line `msg = value[1];`, you're attempting to retrieve the message input. However, since the message parameter key is `s`, you should be checking for `s` instead of `user` in the conditional statement. Look carefully on what value arguments need ot be changed to retrieve the `s`. Let me know if you have any mroe questions!
+
+---
 
 - In this scenario, we need:
 
