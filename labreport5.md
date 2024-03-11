@@ -22,7 +22,8 @@ By Ren Sano
     > **Anonymous Badger**
     >
     > Yes of course, here's my updated URL Path code and what happens when I try to print out the user and message by itself.
-    > ![IMAGE](images/fixing_output)  
+    > ![IMAGE](images/bugged_code)
+    > ![IMAGE](images/bugged_output)  
 
 # `Reflection`
 
